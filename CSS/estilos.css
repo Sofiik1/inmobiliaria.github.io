@@ -23,8 +23,8 @@ body{
 header{
     width: 100%;
     height: 600px;
-    background: #E6DADA;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #355057cb, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: #E6DADA; 
+    background: -webkit-linear-gradient(to right, #355057cb, #E6DADA);  
     background: linear-gradient(to right, #bfe3ec25, #f6fd8f23), url(../Imagenes/Portada\ Inmobiliaria.gif); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
