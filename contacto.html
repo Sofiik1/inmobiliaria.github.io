@@ -3,12 +3,11 @@
     <head>
         <meta charset = "UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Contacto</title>
         <link rel="stylesheet" href="/HTML/ContactoCSS/contacto.css">
     </head>
     <body>
-            <div class="overlay">
+            <div class="portada">
             <form onsubmit="event.preventDefault(); validateform()">
                 <h1>Contactanos</h1>
                 <label for="nombre">Nombre:</label>
@@ -21,9 +20,9 @@
                 <textarea id="mensaje" placeholder="Tu mensaje" rows="6"> </textarea>
                 <small class="error"></small> 
 
-                <div class="center">
-                    <input type="submit" value="Enviar mensaje">
-                    <p id="Sucess"> </p>
+                <div class="boton">
+                    <input type="enviar" value="Enviar mensaje">
+                    <p id="Perfecto"> </p>
 
                 </div>
             </form>
